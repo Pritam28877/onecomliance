@@ -24,7 +24,17 @@
   "tab_2_tab",
   "total_employees",
   "service_description",
-  "tasks_and_activities"
+  "tasks_and_activities",
+  "dedicated_resources_for_the_project",
+  "discovery_and_initial_assessment_activities",
+  "onsite_visit",
+  "client_responsibilities",
+  "technical_support_agreement",
+  "tab_3_tab",
+  "holidays",
+  "hours_and_rates_for_certain_services",
+  "out_of_scope_services_254",
+  "out_of_scope_services_2512"
  ],
  "fields": [
   {
@@ -113,7 +123,7 @@
   {
    "fieldname": "tab_2_tab",
    "fieldtype": "Tab Break",
-   "label": "Tab 2"
+   "label": "Other Details"
   },
   {
    "fieldname": "total_employees",
@@ -129,13 +139,63 @@
    "fieldname": "tasks_and_activities",
    "fieldtype": "Long Text",
    "label": "Tasks & Activities"
+  },
+  {
+   "fieldname": "dedicated_resources_for_the_project",
+   "fieldtype": "Small Text",
+   "label": "Dedicated Resources for the Project"
+  },
+  {
+   "fieldname": "discovery_and_initial_assessment_activities",
+   "fieldtype": "Small Text",
+   "label": "Discovery and Initial Assessment Activities"
+  },
+  {
+   "fieldname": "onsite_visit",
+   "fieldtype": "Small Text",
+   "label": "Onsite Visit"
+  },
+  {
+   "fieldname": "client_responsibilities",
+   "fieldtype": "Small Text",
+   "label": "Client Responsibilities"
+  },
+  {
+   "fieldname": "technical_support_agreement",
+   "fieldtype": "Long Text",
+   "label": "Technical Support Agreement"
+  },
+  {
+   "fieldname": "tab_3_tab",
+   "fieldtype": "Tab Break",
+   "label": "Other Details Holiday"
+  },
+  {
+   "fieldname": "holidays",
+   "fieldtype": "Small Text",
+   "label": "HOLIDAYS"
+  },
+  {
+   "fieldname": "hours_and_rates_for_certain_services",
+   "fieldtype": "Long Text",
+   "label": "HOURS AND RATES FOR CERTAIN SERVICES"
+  },
+  {
+   "fieldname": "out_of_scope_services_254",
+   "fieldtype": "Small Text",
+   "label": "OUT OF SCOPE SERVICES 254"
+  },
+  {
+   "fieldname": "out_of_scope_services_2512",
+   "fieldtype": "Long Text",
+   "label": "OUT OF SCOPE SERVICES 2512"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-03-29 20:13:25.208632",
+ "modified": "2025-03-29 20:24:53.654011",
  "modified_by": "Administrator",
  "module": "Onecomliance",
  "name": "Quotation-complience",
