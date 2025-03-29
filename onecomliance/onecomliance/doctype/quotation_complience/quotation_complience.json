@@ -1,0 +1,161 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-03-29 20:00:16.719300",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_twmi",
+  "our_company",
+  "our_company_name",
+  "our_company_email",
+  "support_email",
+  "column_break_cqni",
+  "our_company_address",
+  "our_phone_number",
+  "section_break_cbje",
+  "client_company",
+  "client_comapany_name",
+  "client_name",
+  "client_company_deta",
+  "amended_from",
+  "section_break_mchx",
+  "table_qeer",
+  "tab_2_tab",
+  "total_employees",
+  "service_description",
+  "tasks_and_activities"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_twmi",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "our_company",
+   "fieldtype": "Link",
+   "label": "Our Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "our_company_name",
+   "fieldtype": "Data",
+   "label": "Our Company Name"
+  },
+  {
+   "fieldname": "our_company_email",
+   "fieldtype": "Data",
+   "label": "Our Company Email"
+  },
+  {
+   "fieldname": "support_email",
+   "fieldtype": "Data",
+   "label": "Support Email"
+  },
+  {
+   "fieldname": "column_break_cqni",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "our_company_address",
+   "fieldtype": "Text",
+   "label": "Our Company address"
+  },
+  {
+   "fieldname": "our_phone_number",
+   "fieldtype": "Data",
+   "label": "Our Phone Number"
+  },
+  {
+   "fieldname": "section_break_cbje",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "client_company",
+   "fieldtype": "Link",
+   "label": "Client Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "client_comapany_name",
+   "fieldtype": "Data",
+   "label": "Client Comapany Name"
+  },
+  {
+   "fieldname": "client_name",
+   "fieldtype": "Data",
+   "label": "Client Name"
+  },
+  {
+   "fieldname": "client_company_deta",
+   "fieldtype": "Small Text",
+   "label": "Client Company Deta"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Quotation-complience",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "section_break_mchx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "table_qeer",
+   "fieldtype": "Table",
+   "options": "Quotation-table-one"
+  },
+  {
+   "fieldname": "tab_2_tab",
+   "fieldtype": "Tab Break",
+   "label": "Tab 2"
+  },
+  {
+   "fieldname": "total_employees",
+   "fieldtype": "Data",
+   "label": "Total Employees"
+  },
+  {
+   "fieldname": "service_description",
+   "fieldtype": "Long Text",
+   "label": "Service Description"
+  },
+  {
+   "fieldname": "tasks_and_activities",
+   "fieldtype": "Long Text",
+   "label": "Tasks & Activities"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-03-29 20:13:25.208632",
+ "modified_by": "Administrator",
+ "module": "Onecomliance",
+ "name": "Quotation-complience",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
