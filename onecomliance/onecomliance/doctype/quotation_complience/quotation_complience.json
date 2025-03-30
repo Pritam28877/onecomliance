@@ -40,7 +40,10 @@
   "holidays",
   "hours_and_rates_for_certain_services",
   "out_of_scope_services_254",
-  "out_of_scope_services_2512"
+  "out_of_scope_services_2512",
+  "tab_4_tab",
+  "password_manager",
+  "framework"
  ],
  "fields": [
   {
@@ -224,13 +227,28 @@
    "fieldname": "travel_paid_1",
    "fieldtype": "Currency",
    "label": "Travel Paid 1"
+  },
+  {
+   "fieldname": "tab_4_tab",
+   "fieldtype": "Tab Break",
+   "label": "Tab 4"
+  },
+  {
+   "fieldname": "password_manager",
+   "fieldtype": "Data",
+   "label": "password manager"
+  },
+  {
+   "fieldname": "framework",
+   "fieldtype": "Data",
+   "label": "Framework"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-03-30 13:32:51.504799",
+ "modified": "2025-03-30 23:50:03.792872",
  "modified_by": "Administrator",
  "module": "Onecomliance",
  "name": "Quotation-complience",
