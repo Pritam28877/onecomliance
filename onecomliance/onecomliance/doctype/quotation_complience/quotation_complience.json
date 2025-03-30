@@ -26,6 +26,8 @@
   "section_break_mchx",
   "table_qeer",
   "travel_paid_1",
+  "total_paid_2",
+  "total_paid_3",
   "tab_2_tab",
   "total_employees",
   "service_description",
@@ -42,7 +44,8 @@
   "out_of_scope_services_2512",
   "tab_4_tab",
   "password_manager",
-  "framework"
+  "framework",
+  "amended_from"
  ],
  "fields": [
   {
@@ -263,13 +266,33 @@
    "fieldtype": "Data",
    "label": "Framework",
    "reqd": 1
+  },
+  {
+   "fieldname": "total_paid_2",
+   "fieldtype": "Currency",
+   "label": "Total Paid 2"
+  },
+  {
+   "fieldname": "total_paid_3",
+   "fieldtype": "Currency",
+   "label": "Total Paid 3"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Quotation-complience",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-03-31 01:49:58.554805",
+ "modified": "2025-03-31 02:21:51.719867",
  "modified_by": "Administrator",
  "module": "Onecomliance",
  "name": "Quotation-complience",
