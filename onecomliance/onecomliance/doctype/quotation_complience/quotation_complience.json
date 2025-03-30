@@ -23,7 +23,6 @@
   "client_email",
   "client_mobile",
   "client_company_address",
-  "amended_from",
   "section_break_mchx",
   "table_qeer",
   "travel_paid_1",
@@ -53,22 +52,27 @@
   {
    "fieldname": "our_company",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "label": "Our Company",
-   "options": "Company"
+   "options": "Company",
+   "reqd": 1
   },
   {
    "fieldname": "our_company_name",
    "fieldtype": "Data",
+   "hidden": 1,
    "label": "Our Company Name"
   },
   {
    "fieldname": "our_company_email",
    "fieldtype": "Data",
+   "hidden": 1,
    "label": "Our Company Email"
   },
   {
    "fieldname": "support_email",
    "fieldtype": "Data",
+   "hidden": 1,
    "label": "Support Email"
   },
   {
@@ -78,12 +82,15 @@
   {
    "fieldname": "our_company_address",
    "fieldtype": "Text",
-   "label": "Our Company address"
+   "in_list_view": 1,
+   "label": "Our Company address",
+   "reqd": 1
   },
   {
    "fieldname": "our_phone_number",
    "fieldtype": "Data",
-   "label": "Our Phone Number"
+   "label": "Our Phone Number",
+   "reqd": 1
   },
   {
    "fieldname": "section_break_cbje",
@@ -93,27 +100,20 @@
    "fieldname": "client_company",
    "fieldtype": "Link",
    "label": "Client Company",
-   "options": "Company"
+   "options": "Company",
+   "reqd": 1
   },
   {
    "fieldname": "client_comapany_name",
    "fieldtype": "Data",
+   "hidden": 1,
    "label": "Client Comapany Name"
   },
   {
    "fieldname": "client_name",
    "fieldtype": "Data",
-   "label": "Client Name"
-  },
-  {
-   "fieldname": "amended_from",
-   "fieldtype": "Link",
-   "label": "Amended From",
-   "no_copy": 1,
-   "options": "Quotation-complience",
-   "print_hide": 1,
-   "read_only": 1,
-   "search_index": 1
+   "label": "Client Name",
+   "reqd": 1
   },
   {
    "fieldname": "section_break_mchx",
@@ -132,42 +132,50 @@
   {
    "fieldname": "total_employees",
    "fieldtype": "Data",
-   "label": "Total Employees"
+   "label": "Total Employees",
+   "reqd": 1
   },
   {
    "fieldname": "service_description",
    "fieldtype": "Long Text",
-   "label": "Service Description"
+   "label": "Service Description",
+   "reqd": 1
   },
   {
    "fieldname": "tasks_and_activities",
    "fieldtype": "Long Text",
-   "label": "Tasks & Activities"
+   "label": "Tasks & Activities",
+   "reqd": 1
   },
   {
    "fieldname": "dedicated_resources_for_the_project",
    "fieldtype": "Small Text",
+   "hidden": 1,
    "label": "Dedicated Resources for the Project"
   },
   {
    "fieldname": "discovery_and_initial_assessment_activities",
    "fieldtype": "Small Text",
-   "label": "Discovery and Initial Assessment Activities"
+   "label": "Discovery and Initial Assessment Activities",
+   "reqd": 1
   },
   {
    "fieldname": "onsite_visit",
    "fieldtype": "Small Text",
-   "label": "Onsite Visit"
+   "label": "Onsite Visit",
+   "reqd": 1
   },
   {
    "fieldname": "client_responsibilities",
    "fieldtype": "Small Text",
-   "label": "Client Responsibilities"
+   "label": "Client Responsibilities",
+   "reqd": 1
   },
   {
    "fieldname": "technical_support_agreement",
    "fieldtype": "Long Text",
-   "label": "Technical Support Agreement"
+   "label": "Technical Support Agreement",
+   "reqd": 1
   },
   {
    "fieldname": "tab_3_tab",
@@ -177,42 +185,51 @@
   {
    "fieldname": "holidays",
    "fieldtype": "Small Text",
-   "label": "HOLIDAYS"
+   "label": "HOLIDAYS",
+   "reqd": 1
   },
   {
    "fieldname": "hours_and_rates_for_certain_services",
    "fieldtype": "Long Text",
-   "label": "HOURS AND RATES FOR CERTAIN SERVICES"
+   "label": "HOURS AND RATES FOR CERTAIN SERVICES",
+   "reqd": 1
   },
   {
    "fieldname": "out_of_scope_services_254",
    "fieldtype": "Small Text",
-   "label": "OUT OF SCOPE SERVICES 254"
+   "label": "OUT OF SCOPE SERVICES 254",
+   "reqd": 1
   },
   {
    "fieldname": "out_of_scope_services_2512",
    "fieldtype": "Long Text",
-   "label": "OUT OF SCOPE SERVICES 2512"
+   "label": "OUT OF SCOPE SERVICES 2512",
+   "reqd": 1
   },
   {
    "fieldname": "client_company_address",
    "fieldtype": "Small Text",
-   "label": "Client Company Address"
+   "label": "Client Company Address",
+   "reqd": 1
   },
   {
    "fieldname": "client_email",
    "fieldtype": "Data",
-   "label": "Client Email"
+   "label": "Client Email",
+   "reqd": 1
   },
   {
    "fieldname": "client_mobile",
    "fieldtype": "Data",
-   "label": "Client Mobile"
+   "label": "Client Mobile",
+   "reqd": 1
   },
   {
    "fieldname": "quote_date",
    "fieldtype": "Date",
-   "label": "Date"
+   "in_list_view": 1,
+   "label": "Date",
+   "reqd": 1
   },
   {
    "fieldname": "column_break_tyxw",
@@ -221,7 +238,9 @@
   {
    "fieldname": "quote_expires",
    "fieldtype": "Date",
-   "label": "Expire Date"
+   "in_list_view": 1,
+   "label": "Expire Date",
+   "reqd": 1
   },
   {
    "fieldname": "travel_paid_1",
@@ -236,19 +255,21 @@
   {
    "fieldname": "password_manager",
    "fieldtype": "Data",
-   "label": "password manager"
+   "label": "password manager",
+   "reqd": 1
   },
   {
    "fieldname": "framework",
    "fieldtype": "Data",
-   "label": "Framework"
+   "label": "Framework",
+   "reqd": 1
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-03-30 23:50:03.792872",
+ "modified": "2025-03-31 01:49:58.554805",
  "modified_by": "Administrator",
  "module": "Onecomliance",
  "name": "Quotation-complience",
