@@ -5,6 +5,9 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
+  "quote_date",
+  "column_break_tyxw",
+  "quote_expires",
   "section_break_twmi",
   "our_company",
   "our_company_name",
@@ -17,10 +20,13 @@
   "client_company",
   "client_comapany_name",
   "client_name",
-  "client_company_deta",
+  "client_email",
+  "client_mobile",
+  "client_company_address",
   "amended_from",
   "section_break_mchx",
   "table_qeer",
+  "travel_paid_1",
   "tab_2_tab",
   "total_employees",
   "service_description",
@@ -95,11 +101,6 @@
    "fieldname": "client_name",
    "fieldtype": "Data",
    "label": "Client Name"
-  },
-  {
-   "fieldname": "client_company_deta",
-   "fieldtype": "Small Text",
-   "label": "Client Company Deta"
   },
   {
    "fieldname": "amended_from",
@@ -189,13 +190,47 @@
    "fieldname": "out_of_scope_services_2512",
    "fieldtype": "Long Text",
    "label": "OUT OF SCOPE SERVICES 2512"
+  },
+  {
+   "fieldname": "client_company_address",
+   "fieldtype": "Small Text",
+   "label": "Client Company Address"
+  },
+  {
+   "fieldname": "client_email",
+   "fieldtype": "Data",
+   "label": "Client Email"
+  },
+  {
+   "fieldname": "client_mobile",
+   "fieldtype": "Data",
+   "label": "Client Mobile"
+  },
+  {
+   "fieldname": "quote_date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "column_break_tyxw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "quote_expires",
+   "fieldtype": "Date",
+   "label": "Expire Date"
+  },
+  {
+   "fieldname": "travel_paid_1",
+   "fieldtype": "Currency",
+   "label": "Travel Paid 1"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-03-29 20:24:53.654011",
+ "modified": "2025-03-30 13:32:51.504799",
  "modified_by": "Administrator",
  "module": "Onecomliance",
  "name": "Quotation-complience",
