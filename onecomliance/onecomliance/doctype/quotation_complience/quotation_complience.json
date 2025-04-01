@@ -48,7 +48,14 @@
   "tab_4_tab",
   "password_manager",
   "framework",
-  "amended_from"
+  "amended_from",
+  "section_break_nhzx",
+  "address_line1",
+  "our_address_line_2",
+  "column_break_dhrv",
+  "address_line_2",
+  "client_address_line_2",
+  "client_address_line_3"
  ],
  "fields": [
   {
@@ -306,13 +313,46 @@
    "fieldname": "submitted_by",
    "fieldtype": "Data",
    "label": "Submitted By"
+  },
+  {
+   "fieldname": "section_break_nhzx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "address_line1",
+   "fieldtype": "Data",
+   "label": "Address Line1"
+  },
+  {
+   "fieldname": "address_line_2",
+   "fieldtype": "Data",
+   "label": "Client Address Line 1"
+  },
+  {
+   "fieldname": "our_address_line_2",
+   "fieldtype": "Data",
+   "label": "Our Address Line 2"
+  },
+  {
+   "fieldname": "column_break_dhrv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "client_address_line_2",
+   "fieldtype": "Data",
+   "label": "Client Address Line 2"
+  },
+  {
+   "fieldname": "client_address_line_3",
+   "fieldtype": "Data",
+   "label": "Client Address Line 3"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-03-31 13:22:58.599671",
+ "modified": "2025-04-01 07:06:41.173270",
  "modified_by": "Administrator",
  "module": "Onecomliance",
  "name": "Quotation-complience",
